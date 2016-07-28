@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+</head>
+<body>
+<!-- Header definition anmd style -->
+<div id="header">
+
+<!-- <h1>Resident Owned Neighbourhoods</h1> -->
+<img src="RON.jpg" width="452" height="36.5">
+
+</div>
+
+<style type="text/css">
+	
+#header{
+	background-color: #000000;
+	margin: 10px;
+	/*height: 90px;*/
+	border-radius: 5px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+</style>
+
+<div id="navbar">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+
+
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#">RON</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+
+      <li class="dropdown1"><a href="#" class="dropbtn1">Home</a>
+      
+      <div class="dropdwncontent1">
+
+      <a href="#intro"> Introduction </a>
+      <a href="#cp"> Current Practices </a>
+      <a href="#ex"> Baltimore Example </a>
+
+      </div>
+
+      </li>
+
+      <style>
+      	
+      li a, .dropbtn1{
+
+     display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+      }
+
+      li a:hover , .dropdown1:hover .dropbtn1{
+       
+       background-color: black;
+
+      }
+
+
+      li.dropdown1{
+      
+       display: inline-block;
+      }
+
+     .dropdwncontent1{
+
+     display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+     }
+
+
+     .dropdwncontent1 a{
+
+     	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+                       }
+
+     .dropdwncontent1 a:hover {background-color: #f1f1f1}
+
+     .dropdown1:hover .dropdwncontent1 {
+         display: block;
+                     }
+
+
+      </style>
+
+
+
+
+       
+
+      <li class="dropdown2"><a data-toggle="dropdown2" href=" ../ronstructure.html" class="dropbtn2">RON Structure
+
+      <span class="caret"></span></a>
+
+ <ul class="dropdwncontent2">
+
+      <a href="../ronstructure.html#strategy"> Main Strategy </a>
+      <a href="../ronstructure.html#structure"> The RON Structure </a>
+      <a href="../ronstructure.html#ownership"> Rent to Ownership </a>
+      <a href="../ronstructure.html#economy"> Build Local Economy </a>
+      <a href="../ronstructure.html#anchor"> Anchor Neighbors </a>
+      </ul>
+
+
+      </li>
+<style>
+      	
+      li a, .dropbtn2{
+
+     display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+      }
+
+      li a:hover , .dropdown2:hover .dropbtn2{
+       
+       background-color: black;
+
+      }
+
+
+      li.dropdown2{
+      
+       display: inline-block;
+      }
+
+     .dropdwncontent2{
+
+     display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+     }
+
+
+     .dropdwncontent2 a{
+
+     	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+                       }
+
+     .dropdwncontent2 a:hover {background-color: #f1f1f1}
+
+     .dropdown2:hover .dropdwncontent2 {
+         display: block;
+                     }
+
+
+      </style>
+
+
+      
+
+
+       <li class="dropdown3"><a href=" ../keyplayers.html" class="dropbtn3">Key Players</a>
+
+ <div class="dropdwncontent3">
+
+      <a href="../keyplayers.html#phil"> Philanthropic Organisations </a>
+      <a href="../keyplayers.html#structure"> Working with Residents </a>
+      <a href="../keyplayers.html#training"> Training </a>
+      <a href="../keyplayers.html#vands">  Volunteers and sponsors</a>
+      <a href="../keyplayers.html#veterans"> Veterans </a>
+      <a href="../keyplayers.html#churches"> Churches </a>
+      <a href="../keyplayers.html#artists"> Artists </a>
+      </div>
+
+
+      </li>
+<style>
+        
+      li a, .dropbtn3{
+
+     display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+      }
+
+      li a:hover , .dropdown3:hover .dropbtn3{
+       
+       background-color: black;
+
+      }
+
+
+      li.dropdown3{
+      
+       display: inline-block;
+      }
+
+     .dropdwncontent3{
+
+     display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+     }
+
+
+     .dropdwncontent3 a{
+
+      color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+                       }
+
+     .dropdwncontent3 a:hover {background-color: #f1f1f1}
+
+     .dropdown3:hover .dropdwncontent3 {
+         display: block;
+                     }
+
+
+      </style>
+
+
+
+
+
+
+      <li><a href="#">Page 3</a></li>
+
+
+
+
+
+    </ul>
+  </div>
+</nav>
+	
+
+</div>
+</nav>
+
+
+
+
+
+<style>
+	
+#navbar{
+
+	background-color: #5c755e;
+	margin: 10px;
+	height: 35px;
+	/*border-radius: 5px;*/
+    top: 0px;
+    margin-left: 0px;
+}
+
+</style>
+<!-- 
+ -->
+	
+
+<div class="slideshow" id="slideshows" style= " width: 900px; "   >   
+
+<img class="mySlides" src="imgs1new.jpg">
+<img class="mySlides" src="imgs2new.jpg">
+<img class="mySlides" src="imgs3new.jpg">
+<img class="mySlides" src="imgs4new.jpg">
+
+
+
+
+<script type="text/javascript">
+	
+	var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+</script>
+
+
+
+
+
+
+
+<nav id="navbarrr" style=" margin-left: 80px ; margin-top: 80px " ;>
+
+
+			
+  <a href="#intro"> Introduction </a><br><br>
+ <a href="#cp"> Current Practices </a><br><br>
+ <a href="#ex"> Baltimore Example </a><br><br>
+
+
+		
+
+
+</nav>
+
+
+
+<section id ="maincontent">
+
+
+<div class="content"  style=" margin-left: 250px;  width: 800px; margin-top: -200px; background-color: #eff3e8; "  >
+	
+<h3 id="intro" style=" font-weight: bold; margin-top: 5px; ">  Introduction   </h3>
+
+<p style=" margin-top: 50px; ">
+	
+The concept of Resident Owned Neighbourhoods builds on the work of Resident 
+
+Owned Communities USA (ROC USA), which pioneerered a shift in the ownership of
+
+mobile home parks from corporations into resident owned communities. ROC USA has
+
+transformed almost 200 mobile home neighbourhoods, demonstrating that, with the
+
+support system provided by their organization, residents are reliable in paying their
+
+mortgages and successfully managing the ownership of the property. ROC USA has
+
+mastered the financial efforts necessary to create resident ownership, but they haven’t
+
+infused these efforts with the social capital building and the health improvement
+
+strategies that Insightformation is facilitating with places like Communities of Hope. In
+
+addition, Insightformation is an innovator in areas of community collaboration and
+
+teamwork, which are necessary to create a vibrant and connected community.
+
+
+
+</p>
+
+
+<h3 id="cp" style=" font-weight: bold; margin-top: 50px; ">  Current Practices   </h3>
+
+
+<p style=" margin-top: 20px; ">
+ 
+ Current efforts to try to stabilize neighbourhoods do not tackle the root of the
+
+problem: shifting as many low-income people as possible into home ownership. 35
+
+percent of African American households spend fifty percent of their income on housing.
+
+But, just like a number of the people in the mobile home parks probably would not be
+
+successful if they just bought out the property, they wouldn’t be able to buy out the
+
+property by themselves and they probably wouldn’t be able to manage it without help.
+
+It’s the same, we need to bring the appropriate assists to create RON. But in bringing
+
+that we think there’s a huge number of benefits over a lot of what’s currently being
+
+done.	
+
+</p>
+
+<p style=" margin-top: 20px; " >
+	
+Being homeless is obviously something they want to avoid, so paying for housing is
+
+going to be their first investment and if they get squeezed to spend more and more,
+
+other things just get squeezed out, not to mention quality of life and everything else.
+
+But, if you could switch that over to ownership where the payment, some of it is taxes,
+
+but some of it is interest to a friendly local nonprofit foundation type lender and a big
+
+chunk of it is principle, no they’re building assets even if they’re not great financial
+
+managers because they’re building the assets in the property. And that is life changing.
+
+We want to multiply that by taking a very different approach.
+
+</p>
+
+<p style=" margin-top: 20px; " >
+
+The land bank, the community land thrust, those are steps in the right direction and
+
+we can certainly learn from them. Habitat for humanity is starting to work toward
+
+broader neighbourhood revitalising, focusing on entire neighbourhoods.
+
+</p>
+
+<h3 id="ex" style=" font-weight: bold; margin-top: 50px; ">  Baltimore Example   </h3>
+
+<p style=" margin-top: 20px; " >
+
+
+From vacants to value, creating value by rehabbing vacant homes and reclaiming
+
+blighted blocks. There’s a certain amount of stuff that’s going on… in baltimore there
+
+are 16,000 vacant and boarded buildings, they’re highly concentrated in severely
+
+distressed areas but there’s not the development demand. In some cases those
+
+properties are being purchased by investors that are trying to rehab them, but there’s
+
+only so much that individuals and investors can do compared to a teamwork effort that
+
+bring together a bunch of different stakeholders to create a lot more value because it’s
+
+coordinated for collaboration and collevitice impact. A lot of these focus on vacant lots
+
+and foreclosed lots and boarded up lots.
+
+
+</p>
+
+
+</div>
+</section>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

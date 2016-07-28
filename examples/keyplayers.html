@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+</head>
+<body>
+<!-- Header definition anmd style -->
+<div id="header">
+
+<!-- <h1>Resident Owned Neighbourhoods</h1> -->
+<img src="RON.jpg">
+
+</div>
+
+<style type="text/css">
+	
+#header{
+	background-color: #000000;
+	margin: 10px;
+	height: 90px;
+	border-radius: 5px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+</style>
+
+<div id="navbar">
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">RON</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+      <li class="dropdown1"><a href="../index.html" class="dropbtn1">Home</a>
+      
+      <div class="dropdwncontent1">
+
+      <a href="../index.html#intro"> Introduction </a>
+      <a href="../index.html#cp"> Current Practices </a>
+      <a href="../index.html#ex"> Baltimore Example </a>
+
+      </div>
+
+      </li>
+
+      <style>
+      	
+      li a, .dropbtn1{
+
+     display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+      }
+
+      li a:hover , .dropdown1:hover .dropbtn1{
+       
+       background-color: black;
+
+      }
+
+
+      li.dropdown1{
+      
+       display: inline-block;
+      }
+
+     .dropdwncontent1{
+
+     display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+     }
+
+
+     .dropdwncontent1 a{
+
+     	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+                       }
+
+     .dropdwncontent1 a:hover {background-color: #f1f1f1}
+
+     .dropdown1:hover .dropdwncontent1 {
+         display: block;
+                     }
+
+
+      </style>
+
+
+
+
+       
+
+      <!-- <li><a href="#">RON Structure</a></li> -->
+
+
+
+      <li class="dropdown2"><a href=" ../ronstructure.html" class="dropbtn2">RON Structure</a>
+
+ <div class="dropdwncontent2">
+
+      <a href="../ronstructure.html#strategy"> Main Strategy </a>
+      <a href="../ronstructure.html#structure"> The RON Structure </a>
+      <a href="../ronstructure.html#ownership"> Rent to Ownership </a>
+      <a href="../ronstructure.html#economy"> Build Local Economy </a>
+      <a href="../ronstructure.html#anchor"> Anchor Neighbors </a>
+      </div>
+
+
+      </li>
+<style>
+        
+      li a, .dropbtn2{
+
+     display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+      }
+
+      li a:hover , .dropdown2:hover .dropbtn2{
+       
+       background-color: black;
+
+      }
+
+
+      li.dropdown2{
+      
+       display: inline-block;
+      }
+
+     .dropdwncontent2{
+
+     display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+     }
+
+
+     .dropdwncontent2 a{
+
+      color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+                       }
+
+     .dropdwncontent2 a:hover {background-color: #f1f1f1}
+
+     .dropdown2:hover .dropdwncontent2 {
+         display: block;
+                     }
+
+
+      </style>
+
+
+
+
+
+     
+
+
+
+      <li class="dropdown3"><a href=" ../keyplayers.html" class="dropbtn3">Key Players</a>
+
+ <div class="dropdwncontent3">
+
+      <a href="../keyplayers.html#phil"> Philanthropic Organisations </a>
+      <a href="../keyplayers.html#structure"> Working with Residents </a>
+      <a href="../keyplayers.html#training"> Training </a>
+      <a href="../keyplayers.html#vands">  Volunteers and sponsors</a>
+      <a href="../keyplayers.html#veterans"> Veterans </a>
+      <a href="../keyplayers.html#churches"> Churches </a>
+      <a href="../keyplayers.html#artists"> Artists </a>
+      </div>
+
+
+      </li>
+<style>
+        
+      li a, .dropbtn3{
+
+     display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+      }
+
+      li a:hover , .dropdown3:hover .dropbtn3{
+       
+       background-color: black;
+
+      }
+
+
+      li.dropdown3{
+      
+       display: inline-block;
+      }
+
+     .dropdwncontent3{
+
+     display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+     }
+
+
+     .dropdwncontent3 a{
+
+      color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+                       }
+
+     .dropdwncontent3 a:hover {background-color: #f1f1f1}
+
+     .dropdown3:hover .dropdwncontent3 {
+         display: block;
+                     }
+
+
+      </style>
+
+
+
+
+
+
+
+      
+      <li><a href="#">Key Differentiators</a></li>
+    </ul>
+  </div>
+</nav>
+	
+
+</div>
+
+
+<style>
+  
+#navbar{
+
+  background-color: #5c755e;
+  margin: 10px;
+  height: 35px;
+  /*border-radius: 5px;*/
+    top: 0px;
+    margin-left: 0px;
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+
+<div class="content" style=" margin-left: 10px; margin-top: 50px; "  >
+  
+<h3  style=" font-weight: bold; margin-top: 5px; ">  Key Players    </h3>
+
+<p style=" margin-top: 50px; ">
+  
+A huge shift in this whole thing is that we’re not looking at individual homes that have
+
+been foreclosed, we’re not looking at individual people who have high needs or
+
+individual families, we’re not looking at individual veterans who are coming back and
+
+need a place to stay. We’re looking at these interrelationships and group dynamics.
+
+</p>
+
+
+
+<h3 id="phil" style=" font-weight: bold; margin-top: 20px; ">  Philanthropic Organisations    </h3>
+
+
+
+<p style="margin-top: 20px;">
+  
+The IRS guidelines and regulations for foundations has very recently been clarified
+
+to allow an increase in PRI, traditionally, if a foundation was investing money in
+
+investments that were not the highest return, lowest risk investments, they could
+
+actually be sued because they were not being “financially responsible.” So that meant
+
+put your money in the most reliable wall street mutual funds as opposed to investing in
+
+a little bit higher risk lower return things that would have a much greater impact on your
+
+mission. So program related investment can significantly increase. As well as
+
+individuals being able to do social impact investing.
+
+</p>
+
+<p style="margin-top: 20px">
+  
+In this case we’d specifically be looking at a combination of a city land bank the
+
+would be buying up the foreclosed and boarded up properties but concentrating
+
+specifically on target neighbourhoods—anywhere from six to twelve blocks. So now you
+
+combine the multiple philanthropic organisations who are possibly consolidated through
+
+some entity, but I think it’s better to have them separate, going in and buying out rental
+
+properties, buying abandoned properties, buying out small apartment buildings, not
+
+hopefully making a whole lot of noise about it because if they do the people will want
+
+higher prices, but if you’ve got different buyers going in and beginning to buy these out
+
+and at the same time you may have the city or the county going win with a little bit more
+
+of a microscope to enforce code violations and make it clear that they’re going to be a
+
+little bit harder to do business with, so people might decide that they’ve had enough and
+
+are ready to sell.
+
+</p>
+
+
+<p style="margin-top: 20px">
+  
+There would need to be some philanthropic dollars that are going to support the
+
+training, but you have all these philanthropic organisations who are now owning the
+
+properties, so they want to train people who are going to be their tenants and eventually
+
+their mortgagees. And there may be some intermediary financial credit union that can
+
+play part of the role in doing this, but the idea would be that youve’’ got a friendly local
+
+philanthropic organzaition, maybe it’s a nonprofit real estate development company that
+
+gets established, or you work with the best partner in the philanthropic community that’s
+
+well-established, somebody like the Common Bond in minneapolis. And in the process
+
+of training the people, the vision is that their going to be putting in sweat equity in
+
+improving the property and improving the neighbourhood.
+
+</p>
+
+
+
+
+<h3 id="res" style=" font-weight: bold; margin-top: 50px; ">  Working with Residents    </h3>
+
+<p style=" margin-top: 20px; ">
+
+At the same time you’d be working with residents, people who are owners to begin
+
+talking with them about plans to build a stronger neighbourhood. You might buy some of
+
+them out, but others you’d be helping to establish as part of the owners in the next
+
+generation.
+
+</p>
+
+<p style=" margin-top: 20px; ">
+
+Since the properties would be purchased at as a low a price as they could be, the
+
+resale price would be low and it would be a relatively low mortgage that they would be
+
+paying. And relatively low taxes because property values are so low. And we would
+
+work with the city and with the other organzations to make that as affordable as we
+
+could. But part of it is that the people are actively working on building up their
+
+neighbourhoods and remodelling their homes. Now, you then begin working with local
+
+contractors, locally owned businesses that are prioritised as the people to help do the
+
+plumbing and the electric, but you’re also training people to do the painting and all the
+
+labor stuff, so that people are putting sweat equity into the remodelling.
+
+</p>
+
+
+<h3 id="training" style=" font-weight: bold; margin-top: 50px; ">  Training    </h3>
+
+<p style=" margin-top: 20px; ">
+
+Habitat for humanity also has training that they provide for people who are
+
+becoming the new owners and you don’t have to reinvent the wheel there, because
+
+there are a number of key things that you would need to do. You may be picking up a lot
+
+of abandoned properties, but the difference here is that you’re also picking up a lot of
+
+the rental properties from the slumlords in as many places as we can so we’ve got as
+
+high a percentage ability to transform this neighbourhood as practical. Once you’ve
+
+acquired the properties than you can be more public because you’re not as worried
+
+about the prices going up. And you can begin working with the renters to engage them
+
+in this potential to create a RON. In order to qualify, you’re not asking to come up with a
+
+down payment, they have to go through all the training.
+
+</p>
+
+
+<h3 id="vands" style=" font-weight: bold; margin-top: 50px; ">  Volunteers and Sponsors    </h3>
+
+<p style=" margin-top: 20px; ">
+
+You also build on the HH model of bringing in volunteers from churches,
+
+corporations, and others to come in and volunteer and help. We would use a software
+
+platform called “meet the need” this is a free platform that would be used as part of the
+
+tools for RON. This helps identify who’s doing what, who has what needs, how can
+
+things be done. You’re tapping into various people who have different tools and skills as
+
+they’re helping to build up the neighbourhood. But it’s not only for the neighbours, this
+
+reaches out to a lot of neighbouring churches, rotary clubs, other community org groups
+
+that are learning about this and finding out how their boy scout group, their girl scout
+
+group can come in and volunteer to help with neighbourhood cleanups or painting the
+
+fences or working with landscaping or taking the empty lot and so on. And we also can
+
+look for corporate or nonprofit sponsors to help with greenspace. SO maybe it is the
+
+“Jackson credit union” park, which is just a simple greenspace that was opened up by
+
+friendly vendors. 
+
+</p>
+
+<h3 id="veterans" style=" font-weight: bold; margin-top: 50px; ">  Veterans    </h3>
+
+<p style=" margin-top: 20px; ">
+
+So with the veterans, you would have vetern serving organisations and
+
+you may have some veterans that may have higher needs, but they’re woven in with
+
+veterans who may have lower needs but are more willing to serve. What you’re giving
+
+them is a purpose for neighbourhood stabilisation and safety. They’ve been patrolling
+
+the streets in Bagdad, they’ve been in Candir province in afganistan, now they’re
+
+making their presence visible, they’ve got their shirts, their hats… and there’s veteran
+
+serving organisations that are supporting them and they’re getting together twice a
+
+week to have their meetings on how to best achieve their mission in keeping the
+
+neighbourhood safe and walk friendly and what not. At the same time, they are
+
+establishing equity in homes that would give them stabization and value. So you’re
+
+giving them purpose, stabilisation and value. You can bring in national veteran service
+
+organisations and then you can bring in other groups to do some of the blight busting
+
+and things that need to be done.
+
+</p>
+
+
+
+<h3 id="churches" style=" font-weight: bold; margin-top: 50px; ">  Churches    </h3>
+
+<p style=" margin-top: 20px; ">
+
+So with the veterans, you would have vetern serving organisations and
+
+you may have some veterans that may have higher needs, but they’re woven in with
+
+veterans who may have lower needs but are more willing to serve. What you’re giving
+
+them is a purpose for neighbourhood stabilisation and safety. They’ve been patrolling
+
+the streets in Bagdad, they’ve been in Candir province in afganistan, now they’re
+
+making their presence visible, they’ve got their shirts, their hats… and there’s veteran
+
+serving organisations that are supporting them and they’re getting together twice a
+
+week to have their meetings on how to best achieve their mission in keeping the
+
+neighbourhood safe and walk friendly and what not. At the same time, they are
+
+establishing equity in homes that would give them stabization and value. So you’re
+
+giving them purpose, stabilisation and value. You can bring in national veteran service
+
+organisations and then you can bring in other groups to do some of the blight busting
+
+and things that need to be done.
+
+</p>
+
+<h3 id="artists" style=" font-weight: bold; margin-top: 50px; ">  Artists    </h3>
+
+<p style=" margin-top: 20px; ">
+
+The artist community could be another form of anchor communities…
+
+Springboard for the arts has toolkits to help make change happen. Community
+
+supported art is something we’d get going there. We would be leveraging the toolkits in
+
+these neighbourhoods and the surrounding neighbourhoods cause if you want to do
+
+community supported arts and you’re saying we have a bunch of artists moving into this
+
+twelve block area, and they wan to make a living. The idea is that you get direct
+
+payments to artists by people who want to buy their art in the community and they’re not
+
+having to go through middle men. And of course you can leverage this with all kinds of
+
+online things as well.
+
+Maybe you’ve got a mural or maybe you want to create something that’s very
+
+striking. Painted ladies in San Francisco.
+
+</p>
+
+
+
+
+
+
+
+
+
+
+</div>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>RON|Residentent Owned Neighborhoods</title>
+		<meta name="author" content="Anand" />
+		<meta name="description" content="fullPage full-screen navigation and sections control menu." />
+		<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
+		<meta name="Resource-type" content="Document" />
+
+
+		<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+		<link rel="stylesheet" type="text/css" href="examples.css" />
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,900,300' rel='stylesheet' type='text/css'>
+
+
+
+
+		<style>
+		/* Overwriting styles for control arrows for slides.fp-controlArrow.fp-prev
+		* --------------------------------------- */
+		.controlArrow.prev {
+			left: 50px;
+			border-width: 23.5px 28px 23.5px 0;
+		}
+		.controlArrow.next{
+			right: 50px;
+		}
+
+		</style>
+
+		<!--[if IE]>
+			<script type="text/javascript">
+				 var console = { log: function() {} };
+			</script>
+		<![endif]-->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+		<script type="text/javascript" src="../vendors/jquery.slimscroll.min.js"></script>
+
+		<!-- <script type="text/javascript" src="../jquery.fullPage.js"></script> -->
+		<script type="text/javascript" src="examples.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#fullpage').fullpage({
+					anchors: ['firstPage', 'secondPage', '3rdPage'],
+					sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+					navigation: true,
+					navigationPosition: 'right',
+					navigationTooltips: ['First page', 'Second page', 'Third and last page']
+				});
+			});
+		</script>
+
+	</head>
+	<body>
+		
+			
+					
+					<div class="heading" style="margin-left: 2%";>
+
+						<h1 id="fadein1" style="font-size: 2.5em";>RESIDENT OWNED NEIGHBORHOODS</h1>
+                        <p id="button"><button>toggle</button> </p>
+                        <style >
+                        	#button {
+                        		left: 179px;
+                        	}
+                        </style>
+					
+				</div>
+		    <div id = "sidebar" style="position:absolute;
+        left:0; top:92px; bottom: 0;
+        width: 178px"; >
+<p> left sidebar</p>
+        <script>
+$('button').toggle(
+
+function() {
+    $('#button').css('left', '0')
+}, function() {
+    $('#button').css('left', '179px')
+})
+        </script>
+		    
+							
+
+
+
+
+
+
+				
+				<ul>
+				
+				<li><a class="tabone" style="padding: 3px;" href="../index.html">Home</a></li>
+				
+				<li><a class="tabtwo" style="padding: 3px;" href="../About.html">About</a></li>
+				
+				<li><a class="tabthree" style="padding: 3px;" href="../Tools.html">Tools</a></li>
+				
+				<li><a class="tabfour" style="padding: 3px;" href="../Differences.html">Differences</a></li>
+				
+				 <li><a class="tabfive" style="padding: 3px;" href= "../Contact.html">Contact</a></li> 
+				
+			</ul>
+			
+			</body>
+			</body>
+	</body>
+</html>

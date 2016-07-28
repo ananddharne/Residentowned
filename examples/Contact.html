@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>One single section - fullPage.js</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage One single section." />
+	<meta name="keywords"  content="fullpage,One, Single, Section" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,900,300' rel='stylesheet' type='text/css'>
+	<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:40px 0 0 0;
+	}
+	.intro p{
+		color: #fff;
+		padding:40px 0 0 0;
+	}
+	.wrap{
+		margin-left: auto;
+		margin-right: auto;
+		
+		position: relative;
+		padding: 20px 0 20px 0;
+	}
+	.wrap h1{
+		font-size: 2.3em;
+		color: #333;
+		text-align: left;
+		padding: 30px 0 10px  0;
+		font-weight: 900;
+	}
+	.wrap p{
+		font-size: 16px;
+		padding:  0 0 10px 0;
+	}
+	.box{
+		display: block;
+		background: #f2f2f2;
+		border:1px solid #ccc;
+		padding: 20px;
+		margin:20px 0;
+	}
+	a {
+		color: #CFCECE;
+	}
+	h3 {
+		position: fixed;
+
+	}
+	ul {
+		position: fixed;
+		top: 6.5%
+		left: 74%;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #000;
+	}
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="../vendors/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="../jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage'],
+				sectionsColor: ['#4A6FB1'],
+				autoScrolling: false,
+				css3: true,
+				fitToSection: false
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<ul style="margin-top: -18em;">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Tools</a></li>
+			<li><a href="#">Success Stories/Diffrences</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<div class="intro">
+			<h1 style="font-family: &quot;Lato&quot;sans-serif;font-size: 8em; text-shadow: 2px 2px #BA0230; padding: 0;">Contact Us</h1>
+		</div>
+	</div>
+</div>
+<div class="wrap">
+	<h1 style="font-size: 3.3em;text-align: center;font-weight: 900;">Connect with Insightformation
+	</h1>
+	<p style="text-align: center; font-weight: bolder;">4050 Olson Memorial Hwy</p>
+	<p style="text-align: center; font-weight: bolder;">Suite 250</p>
+	<p style="text-align: center; font-weight: bolder;">Minneapolis, MN 55422</p>
+	<br>
+	<br>
+	<p style="text-align: center; font-weight: bolder;"><b>Phone:</b> 763.521.4599</p>
+	<p style="text-align:  center; margin-left:-22px; font-weight: bolder;"><b>Fax:</b> 763.521.4598</p>
+	<p style="margin-left:90px; text-align: center;"> <b>Email:</b> ifi-info@insightformation.com</p>
+	<p style="margin-left:240px; text-align: center;"><b>Web:</b> <a href = "http://www.insightformation.com" style="
+    color: burlywood;text-align: center; 
+">www.insightformation.com</a></p>
+<!-- <div class='van'>
+	<div class='nav'>
+		<p><a href="C:/Users/DellUser/Downloads/RON/RON/examples/RONsite.html">RON</a></p>
+
+		
+	</div> -->
+				
+<!-- </div> -->
+</div>
+				
+				<ul>
+				
+				<li><a class="tabone" style="padding: 3px;" href="../index.html">Home</a></li>
+				
+				<li><a class="tabtwo" style="padding: 3px;" href="../About.html">About</a></li>
+				
+				<li><a class="tabthree" style="padding: 3px;" href="../Tools.html">Tools</a></li>
+				
+				<li><a class="tabfour" style="padding: 3px;" href="../Differences.html">Differences</a></li>
+				
+				 <li><a class="tabfive" style="padding: 3px;" href= "../Contact.html">Contact</a></li> 
+				
+			</ul>
+			
+</body>
+</html>
